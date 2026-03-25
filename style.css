@@ -416,18 +416,18 @@ footer {
     font-size: 1rem;
   }
 
-  /* Titre de section */
+  
   .container {
     font-size: 1.6rem;
   }
 
  
 
-  /* Le menu se cache en dehors de l'écran */
+  
   nav {
     position: fixed;
     top: 0;
-    right: -100%;   /* cache à droite */
+    right: -100%;   
     width: 75%;
     max-width: 300px;
     height: 100vh;
@@ -439,8 +439,7 @@ footer {
   }
 
  
-
-  /* Les liens en colonne sur mobile */
+  
   nav ul {
     flex-direction: column;
     gap: 20px;
@@ -453,19 +452,18 @@ footer {
  
 
  
-
-  /* Les images font 100% de la largeur */
+  
   .img img {
     max-width: 180px;
   }
 
-  /* Les cartes en colonne sur mobile */
+  
   .card {
     flex: 1 1 100%;
     max-width: 100%;
   }
 
-  /* Timeline adaptée */
+  
   .timeline {
     padding-left: 30px;
   }
@@ -475,7 +473,7 @@ footer {
     gap: 8px;
   }
 
-  /* Footer en colonne */
+  
   .social-links {
     flex-direction: column;
     gap: 10px;
